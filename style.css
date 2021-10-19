@@ -68,7 +68,12 @@ img {
     background-color: rgb(178, 241, 220);
   }
 
-  
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 33%;
+  }
 
 }  
 
@@ -96,7 +101,7 @@ img {
     text-align: center;
   }
   
-  #lezioni .row,#why .row{
+  #lezioni .row,#why .row,#steps .row{
     background-color: white;
   }
 
