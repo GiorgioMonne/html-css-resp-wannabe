@@ -58,7 +58,21 @@ img {
     font-size: 25px;
   }
 
-@media screen and (min-width: 569px){
+@media screen and (min-width: 568px) {
+  
+  #lezioni .row,#why .row{
+    background-color: rgb(243, 217, 221);
+  }
+
+  #steps .row{
+    background-color: rgb(178, 241, 220);
+  }
+
+  
+
+}  
+
+@media screen and (min-width: 1024px){
   .row{
     margin-top: 100px;
   }
